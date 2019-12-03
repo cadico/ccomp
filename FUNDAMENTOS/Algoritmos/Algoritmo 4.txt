@@ -1,0 +1,14 @@
+Inicio
+Ler n
+MaiorPreço <- 0
+Produto <- 0 
+ Para i=1 ate n faça
+  Ler nome
+  Ler preço
+   Se preço > MaiorPreço
+    MaiorPreço <- preço
+    Produto <- nome
+   Fim Se
+ Fim Para
+ Escrever Produto
+Fim

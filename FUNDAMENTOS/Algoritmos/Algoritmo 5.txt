@@ -1,0 +1,8 @@
+Inicio
+Ptotal <- 0
+Para i=1 ate 25 faça
+ Ler P
+  Ptotal <- Ptotal + P
+Fim Para
+Escrever Ptotal
+Fim

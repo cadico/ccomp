@@ -1,0 +1,24 @@
+Inicio
+Ler A
+Ler B
+Soma <- 0
+entreAB <- 0
+ Se A e B < 0
+  Escrever "Soma não pôde ser efetuada"
+ Se não 
+  Se A > B
+   Escrever "Soma não pôde ser efetuada"
+  Se não
+   entreAB <- (B - A) - 1
+  Fim Se
+  Para i=1 até entreAB faça
+   Se A / 4 = n (onde n é um inteiro positivo)
+    Soma <- Soma + (A+4) 
+   Se não
+    Se A é primo
+    
+
+  
+  
+   
+   

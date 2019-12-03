@@ -1,0 +1,6 @@
+Inicio
+ Ler n
+ Ler preço
+  Gasto <- n * preço
+   Escrever Gasto
+Fim

@@ -1,0 +1,20 @@
+Inicio
+Ler n
+NP <- 0
+NI <- 0
+SP <- 0
+MP <- 0 
+Para i=1 ate n faça
+ Ler numero
+  Se numero = "par" então:
+   NP <- NP+1
+   SP <- SP+2i
+  Se não 
+   NI <- NI+1
+  Fim Se
+Fim Para
+MP <- SP/NP
+Escrever NP, NI, MP
+Fim
+
+  

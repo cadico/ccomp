@@ -1,0 +1,9 @@
+Inicio
+Ler n
+Ler A1
+Ler R
+Para i= 1 ate n faça  
+ An <- A1 + (i-1)*R
+  Escrever An
+Fim Para
+Fim

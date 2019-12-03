@@ -1,0 +1,37 @@
+Inicio
+ Eleitores <- 20000
+ V1 <- 0
+ V2 <- 0
+ V3 <- 0
+ V4 <- 0
+ Branco <- 0
+ Nulo <- 0
+  Para i=1 até 20000 faça
+   Ler Voto
+    Se Voto = 0 
+     Branco <- Branco + 1
+    Se não
+     Se Voto = 4
+      V4 <- V4 + 1
+     Se não
+      Se Voto = 3
+       V3 <- V3 + 1
+      Se não
+       Se Voto = 2
+        V2 <- V2 + 1
+       Se não
+        Se Voto = 1
+         V1 <- V1 + 1
+        Se não
+         Nulo <- Nulo + 1
+        Fim Se
+       Fim Se
+      Fim Se
+     Fim Se
+    Fim Se
+  Fim Para
+ Escrever V1, V2, V3, V4, Branco, Nulo
+Fim
+
+ 
+  

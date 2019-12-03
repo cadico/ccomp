@@ -1,0 +1,20 @@
+Inicio
+Ler A
+Ler B
+Soma <- 0
+entreAB <- 0
+ Se A e B < 0
+  Escrever "Soma não pode ser realizada"
+ Se não
+  Se A > B
+   Escrever "Soma não pode ser realizada"
+  Se não
+   entreAB <- (B-A) - 1
+  Fim Se
+ Fim Se
+  Para i=1 até entreAB faça
+   Soma <- A+i
+  Fim Para
+Escrever Soma
+Fim  
+ 

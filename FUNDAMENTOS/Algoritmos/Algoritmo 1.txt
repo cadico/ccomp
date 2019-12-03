@@ -1,0 +1,28 @@
+Inicio
+Ler n
+NH <- 0
+NM <- 0 
+SH <- 0
+SM <- 0
+MaiorSalario <- 0
+Para i=1 ate n faça
+ Ler sexo
+ Ler salario
+ Ler idade
+  Se sexo = "M" então:
+   NH <- NH + 1
+   SH <- salario + SH
+  Se não
+   NM <- NM + 1
+   SM <- salario + SM
+   Se idade < 30
+    MaiorSalario <- salario
+   Fim Se 
+  Fim Se
+Fim Para
+MediaHomem <- SH/NH
+MediaMulher <- SM/NM
+Escrever MediaHomem, MediaMulher, MaiorSalario
+
+
+
