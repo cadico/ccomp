@@ -9,13 +9,13 @@ def preencher():
     return a
 def calc(a):
     b=set(a)
-    print('Valores Sorteados!')
+    print 'Valores Sorteados!'
     for j in a:
-        print(j, end=' ')
-    print()
+        print j,
+    print
     for i in b:
         z=a.count(i)
-        print('O numero {:2d} aparece {:2d} vezes'.format(i,z))
+        print 'O numero {:2d} aparece {:2d} vezes'.format(i,z)
     return b
 a=preencher()
 b=calc(a)

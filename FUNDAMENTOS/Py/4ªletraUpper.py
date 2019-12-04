@@ -1,6 +1,6 @@
 # -*- coding: cp1252 -*-
 #Mudar a 4º letra para maiúscula
-nome=raw_input('Digite o nome:')
+nome=eval(input('Digite o nome:'))
 n=len(nome)
 nomer=''
 for i in range(n):
@@ -8,5 +8,5 @@ for i in range(n):
         nomer+=nome[i]
     else:
         nomer+=nome[i].upper()
-print nomer
+print(nomer)
         

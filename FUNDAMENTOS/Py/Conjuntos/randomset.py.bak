@@ -15,12 +15,12 @@ def calc(b):
                 c[i],c[j]=c[j],c[i]
     return c
 def impr(b,c):
-    print('Valores Sorteados!')
+    print 'Valores Sorteados!'
     for j in b:
-        print('{:10d}'.format(j))
-    print('Valores ordenados!')
+        print '{:10d}'.format(j)
+    print 'Valores ordenados!'
     for j in c:
-        print('{:10d}'.format(j))
+        print '{:10d}'.format(j)
     return
 a,b=preencher()
 c=calc(b)
