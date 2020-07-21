@@ -1,3 +1,3 @@
-# Repositório CCOMP UERJ
+# Computer Science's repository
 
-Esse repositório contém materiais e exercícios utilizados e resolvidos por mim durante o curso de graduação em Ciência da Computação na UERJ.
+This repositor contains projects, exercises, codes produced in my bachelor's degree in Computer Science by UERJ - Rio de Janeiro State University
