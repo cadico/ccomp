@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include <string.h>
+#ifndef MAX
+#define MAX 255
+#endif
+int tamanho, chave = 1;
+
 int main(){
-	char * palavra; int tamanho,chave=1,i=1;
-	fgets(palavra,255,stdin);
+	char * palavra; int i=1;
+	fgets(palavra,MAX,stdin);
 	printf("%s\n", palavra);
 	tamanho = strlen(palavra);
 	while (tamanho>=1)
